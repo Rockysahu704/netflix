@@ -1,0 +1,496 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+
+}
+
+body{
+  position: relative;
+  background: gray;
+}
+
+.bgDiv{
+  width: 100%;
+  height: 700px;
+  background: black;
+  
+
+}
+
+.sec_1 #bg{
+
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+
+}
+
+
+.sec_1 div{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* background: yellow; */
+}
+
+.sec_1 #lang option{
+  text-align: center;
+
+}
+
+
+.sec_1 #lang{
+  width: 120px;
+  height: 35px;
+  
+  border-radius: 7px;
+  background: black;
+  color: white;
+  box-shadow: 0px 0px 10px white;
+
+}
+
+.sec_1 #lang:active{
+  width: 120px;
+  height: 40px;
+  border: solid 3px white;
+
+}
+
+
+
+button{
+  width: 70px;
+  height: 35px;
+  background: red;
+  color: white;
+  border-radius: 7px;
+}
+button:hover{
+  background: rgba(180, 0, 0);
+}
+
+.sec_1_1{
+  margin-top: 20px;
+  width: 100%;
+  /* background: pink; */
+}
+
+.sec_1_1 img{
+  margin-left: 150px;
+}
+.sec_1_1 #lang {
+  margin-left: 650px;
+}
+.sec_1_1 button{
+  margin-left: 30px;
+}
+
+/* Section-2 */
+
+.sec_2{
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  /* height: 50px; */
+  /* background: yellow; */
+  display: grid;
+  justify-content: center;
+}
+
+.sec_2 .text1 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  /* margin-top: 10px; */
+}
+
+.sec_2 .text2{
+  font-size: 25px;
+  margin-left: 200px;
+  color: white;
+  margin-top: 10px;
+}
+.sec_2 .text3{
+  font-size: 20px;
+  margin-left: 100px;
+  color: white;
+  margin-top: 10px;
+}
+.text4{
+ width: 100%;
+ height: 50px;
+ /* background: pink; */
+ margin-top: 10px;
+ display: flex;
+ align-items: center;
+
+}
+
+.emailOuterDiv{
+  border: solid 2px white;
+  width: 335px;
+  height: 40px ;
+  border-radius: 5px;
+  margin-left: 120px;
+  padding: 1px;
+}
+.emailInnerDiv{
+  border: solid 1px red;
+  width: 332px;
+  height: 37px ;
+  border-radius: 5px;
+  background: black;
+  opacity: 0.3;
+  
+  
+}
+
+.emailOuterDiv form{
+  display: grid;
+}
+.emailOuterDiv form input{
+  border: 0px;
+  /* opacity: 0.1; */
+  color: white;
+  background: black;
+}
+.emailOuterDiv form label{
+  color: white;
+  
+}
+
+.start{
+  height: 35px ;
+  background: red;
+  font-size: 25px;
+  margin-left: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Section - 3 */
+
+.sec_3{
+  position: absolute;
+  top: 710px;
+  width: 100%;
+  /* height: 300px; */
+  background: black;
+ 
+}
+
+.sec_3_main{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 80px;
+
+}
+
+.sec_3_1 div:nth-child(1){
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+ 
+}
+.sec_3_1 div:nth-child(2){
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  display: grid;
+ 
+}
+
+.sec_3_2 video{
+  height: 390px;
+  width: 300px;
+}
+
+/* tv */
+
+#tv{
+  position: absolute;
+  top: 834px;
+  right: 180px;
+  width: 400px;
+  height: 315px;
+}
+
+/* Section - 4 */
+
+.sec_4{
+  position: absolute;
+  top:1195px;
+  width: 100%;
+  height: 500px;
+  background: black;
+}
+
+.sec_4_main{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.sec_4_1 img{
+  height: 250px;
+  width: 450px;
+}
+
+.sec_4_2{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.sec_4_2 div:nth-child(1){
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+}
+.sec_4_2 div:nth-child(2){
+  /* position: relative;
+  bottom: 20px; */
+  font-size: 40px;
+  font-weight: bolder;
+  color: white
+  
+}
+.sec_4_2 div:nth-child(3){
+  /* position: relative;
+  bottom: 40px; */
+  font-size: 20px;
+  font-weight: lighter;
+  color: white
+}
+.sec_4_2 div:nth-child(4){
+  /* position: relative;
+  bottom: 60px; */
+  font-size: 20px;
+  font-weight: lighter;
+  color: white
+}
+
+/* Stranger thing gif*/
+
+.box{
+  position: absolute;
+  top: 1480px;
+  left: 220px;
+  border: solid 2px gray;
+  width: 350px;
+  height: 100px;
+  background: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+
+}
+
+.boxshot{
+  width: 80px;
+  height: 80px;
+}
+
+.s .s1{
+  color: white;
+
+}
+
+.s .s2{
+  color: blue;
+}
+
+.downIcon{
+  width: 80px;
+  height: 80px;
+
+}
+
+/* Section - 5 */
+
+.sec_5{
+  position: absolute;
+  top: 1710px;
+  width: 100%;
+  height: 580px;
+  background: black;
+
+}
+
+.sec_5_main{
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sec_5_1 div:nth-child(1){
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+}
+.sec_5_1 div:nth-child(2){
+  display: grid;
+  align-items: center;
+}
+.sec_5_1 div span:nth-child(1){
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+}
+.sec_5_1 div span:nth-child(2){
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+}
+
+.sec_5_2 video{
+  height: 390px;
+  width:300px ;
+
+}
+
+/* divice */
+
+.divice{
+  position: absolute;
+  top: 1870px;
+  right: 115px;
+}
+
+.divice img{
+  height: 400px;
+  width: 500px;
+}
+
+/* Section-6 */
+
+.sec_6{
+  position: absolute;
+  top: 2300px;
+  width: 100%;
+  height: 500px;
+  background: black;
+}
+
+.sec_6_main{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.sec_6_1 img{
+  height: 400px;
+  width: 400px;
+}
+
+.sec_6_2 div:nth-child(1){
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+}
+.sec_6_2 div:nth-child(2){
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+}
+.sec_6_2 div:nth-child(3){
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+}
+.sec_6_2 div:nth-child(4){
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+}
+.sec_6_2 div:nth-child(5){
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+}
+
+/* Section-7 */
+
+.sec_7{
+  position: absolute;
+  top: 2810px;
+  background: black;
+  height: 650px;
+  width: 100%;
+}
+
+.sec_7_main{
+  margin-top: 50px;
+  display: grid;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.qbox{
+  
+  width: 80%;
+  height: 50px;
+  background: gray;
+  margin-top:10px ;
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+.qbox:hover{
+  background: lightgray;
+
+}
+
+/* Sec_8 */
+
+.sec_8{
+  position: absolute;
+  top: 3470px;
+  width: 100%;
+  height: 300px;
+  
+  background: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
